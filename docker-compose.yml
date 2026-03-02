@@ -6,7 +6,7 @@ services:
     ports:
       - "5000:5000"
     environment:
-      - MONGO_URI=mongodb+srv://nlpuser:nlpuser@nlp-cluster.b8wposo.mongodb.net/?appName=nlp-cluster
+      - MONGO_URI=your_mongodb_connection_string_here
     depends_on:
       - nlp
 
