@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
+    environment:
+      - MONGO_URI=mongodb+srv://nlpuser:nlpuser@nlp-cluster.b8wposo.mongodb.net/?appName=nlp-cluster
+    depends_on:
+      - nlp
+
+  nlp:
+    build: ./service
+    ports:
+      - "8000:8000"

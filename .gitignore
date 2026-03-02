@@ -1,0 +1,17 @@
+# Node
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+docker-compose.override.yml
+
+# OS
+.DS_Store
+Thumbs.db
