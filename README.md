@@ -234,6 +234,9 @@ Open the URL shown in the terminal (typically http://localhost:5173).
 This project is a fully functional, Dockerized multi-service Natural Language Interface for MongoDB designed for hackathon submission and extensibility into production-level systems.
 
 ---
+Create a `backend/.env` :
+- `MONGO_URI`: Your MONGO_URI KEY
+
 
 
 
